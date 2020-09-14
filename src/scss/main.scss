@@ -50,9 +50,17 @@
                         &--load {
                             background: #22225c;
                             color: white;
+                            transition: 1s linear 2s, background-color 1s ease-in 0s;
+                            &:hover {
+                                background: rgb(89, 222, 255);
+                            }
                         }
                         &--save {
                             background: rgb(255, 255, 255);
+                            transition: 1s linear 2s, background-color 1s ease-in 0s;
+                            &:hover {
+                                background: rgb(140, 140, 148);
+                            }
                         }
                     }
                 }
@@ -67,6 +75,10 @@
                     margin-bottom: 50px;
                     font-family: 'Open Sans', sans-serif;
                     color: $black;
+                    transition: transform 1.5s;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
                 }
                 
                 @media(max-width:550px) {
