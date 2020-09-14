@@ -11,7 +11,7 @@
                 }
                 
                 body {
-                    background: $violet;
+                    background: $grey;
                     display: flex;
                     min-height: 100vh;
                     align-items: center;
@@ -26,8 +26,8 @@
                 .form {
                     &__label {}
                     &__message {
-                        width: 400px;
-                        height: 183px;
+                        width: 500px;
+                        height: 300px;
                     }
                     &__action {
                         padding-top: 20px;
@@ -67,9 +67,9 @@
                     color: $black;
                 }
                 
-                @media(max-width:450px) {
+                @media(max-width:550px) {
                     .form__message {
                         height: 30vh;
-                        width: 240px;
+                        width: 320px;
                     }
                 }
