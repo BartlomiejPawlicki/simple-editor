@@ -35,6 +35,7 @@
                         padding-top: 20px;
                         display: flex;
                         justify-content: space-between;
+                        margin-bottom: 60px;
                     }
                     &__button {
                         flex: none;
@@ -79,6 +80,12 @@
                     &:hover {
                         transform: scale(1.2);
                     }
+                }
+                
+                .svg {
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 20px;
                 }
                 
                 @media(max-width:550px) {
