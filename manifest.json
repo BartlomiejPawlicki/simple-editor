@@ -1,6 +1,6 @@
 {
     "name": "My application",
-    "short_name": "PWA",
+    "short_name": "Bart",
     "theme_color": "#00aae7",
     "background_color": "#000000",
     "display": "standalone",
